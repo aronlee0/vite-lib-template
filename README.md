@@ -71,5 +71,3 @@ ps: The `example` directory is for debugging, listing example or previewing your
 🎸 [**Typescript**](https://www.typescriptlang.org/)  
 👩🏼‍🚒 [**Jest**](https://jestjs.io/) for testing  
 💅 [**Prettier**](https://prettier.io/) to format your code
-
-### Enjoining

@@ -72,5 +72,3 @@ ps: `example`目录是用来在浏览器调试，举例或者预览你的库功�
 🎸 [**Typescript**](https://www.typescriptlang.org/)  
 👩🏼‍🚒 [**Jest**](https://jestjs.io/) for testing  
 💅 [**Prettier**](https://prettier.io/) to format your code
-
-### Enjoining
