@@ -9,13 +9,22 @@ But I like lite. if I want to create a utility or lib, I just clone and start to
 
 ## Usage
 
-Tab in your terminal:
+### 1. First way(use `degit`):
 
 ```shell
-$ git clone --depth=1 https://github.com/aronlee0/vite-lib-template.git && rm -rf ./vite-lib-template/.git
+npx degit aronlee0/vite-lib-template my-project
 
 # or npm, yarn
-$ cd vite-lib-template && pnpm install
+cd my-project && pnpm install
+```
+
+### 2. Second way:
+
+```shell
+$ git clone --depth=1 https://github.com/aronlee0/vite-lib-template.git my-project && rm -rf ./my-project/.git
+
+# or npm, yarn
+$ cd my-project && pnpm install
 ```
 
 ### The directory structure looks like:

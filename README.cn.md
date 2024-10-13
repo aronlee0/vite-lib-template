@@ -10,13 +10,22 @@
 
 ## 用法
 
-在终端输入:
+### 1. 第一种方式(使用`degit`):
 
 ```shell
-$ git clone --depth=1 https://github.com/aronlee0/vite-lib-template.git && rm -rf ./vite-lib-template/.git
+npx degit aronlee0/vite-lib-template my-project
 
 # or npm, yarn
-$ cd vite-lib-template && pnpm install
+cd my-project && pnpm install
+```
+
+### 2. 第二种:
+
+```shell
+$ git clone --depth=1 https://github.com/aronlee0/vite-lib-template.git my-project && rm -rf ./my-project/.git
+
+# or npm, yarn
+$ cd my-project && pnpm install
 ```
 
 ### The directory structure looks like:
