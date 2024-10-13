@@ -1,15 +1,16 @@
 # vite-template-lib
 
-English | [中文简体](README.cn.md)
+[English](README.md) | README.cn.md
 
-This is a initial template to build your library package.
+这是一个用来构建lib包的初始化模板
 
-It is a **lite** template, if you want to add more, clone and just do.
-But I like lite. if I want to create a utility or lib, I just clone and start to do at once.
+这是一个 **清量化** 的模板， 如果你想增加更多配置和功能， clone下来随便加
 
-## Usage
+但我喜欢清量化， 如果我想写一个工具或者lib， 我只需克隆下来就可以开始写了
 
-Tab in your terminal:
+## 用法
+
+在终端输入:
 
 ```shell
 $ git clone --depth=1 https://github.com/aronlee0/vite-lib-template.git && rm -rf ./vite-lib-template/.git
@@ -43,20 +44,20 @@ $ cd vite-lib-template && pnpm install
     └── vite.config.ts
 ```
 
-ps: The `example` directory is for debugging, listing example or previewing your libraries's functionality on browser.
+ps: `example`目录是用来在浏览器调试，举例或者预览你的库功能的
 
-### Commands
+### 命令
 
-- `npm run dev`: Start a server, the entry file is "example/index.html"
-- `npm run build`: Build your library code, **then generate ts declarations(\*.d.ts) files**
-- `npm run types`: Generate ts declarations(\*.d.ts) files
-- `npm run test`: Run all test case with jest
+- `npm run dev`: 启动一个local server, 入口文件是"example/index.html"
+- `npm run build`: 构建你的lib代码, **然后生成ts声明文件(\*.d.ts)**
+- `npm run types`: 生成ts声明文件(\*.d.ts)
+- `npm run test`: 跑jest
 
 ### TODO list:
 
 [ ] Configuration release to npm registry
 
-## Thanks theses exellents tools for our lib construction
+## 感谢下面这些优质的工具
 
 🛠 [**Vite**](https://vite.dev/) for building, It's easy to configurate, even zero configuration.  
 🎸 [**Typescript**](https://www.typescriptlang.org/)  

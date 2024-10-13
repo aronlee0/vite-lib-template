@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite Library Template</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div id="app">
+      <h1>Vite Library Template.</h1>
+      <p>This is a initial template to build your library package.</p>
+      <p>
+        Current package version is <code>{{ process.env.VERSION }}</code>
+        You are using <code>vite@{{ process.env.VITE_VERSION }}</code> and
+        typesc<code>typescript@{{ process.env.TS_VERSION }}</code>.</p>
+      <p>
+        <p>This template depend on the below development dependencies:</p>
+        <ul> 
+          {{ Object.entries(devDeps).map(([pkg, ver]) => `\u003cli>${pkg}: ${ver}\u003c/li>`).join("") }}
+            <!-- {{devDeps}} -->
+        </ul>
+      </p>
+
+      <h2>Example</h2>
+    </div>
+    <script type="module" src="index.ts"></script>
+  </body>
+</html>
