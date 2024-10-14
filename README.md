@@ -63,7 +63,8 @@ ps: The `example` directory is for debugging, listing example or previewing your
 
 ### TODO list:
 
-[ ] Configuration release to npm registry
+[ ] Configuration release to npm registry  
+[ ] Support to generate library documentation
 
 ## Thanks theses exellents tools for our lib construction
 

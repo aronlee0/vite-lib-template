@@ -64,7 +64,8 @@ ps: `example`目录是用来在浏览器调试，举例或者预览你的库功�
 
 ### TODO list:
 
-[ ] Configuration release to npm registry
+[ ] Configuration release to npm registry  
+[ ] Support to generate library documentation
 
 ## 感谢下面这些优质的工具
 
